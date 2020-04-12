@@ -18,14 +18,14 @@ public class OpenAndClosebrowser {
 	public void openbrowser() throws Exception {
 
 		
-		FileInputStream file = new FileInputStream("/Users/chawla/eclipse-workspacenew/SalesforceSeleniumFramework/config.properties");
-		Properties prop = new Properties();
-		prop.load(file);
-		String br=prop.getProperty("browser"); 
-		if (br.equals("chrome")){		
+	//	FileInputStream file = new FileInputStream("/Users/chawla/eclipse-workspacenew/SalesforceSeleniumFramework/config.properties");
+	//	Properties prop = new Properties();
+	//	prop.load(file);
+	//	String br=prop.getProperty("browser"); 
+	//	if (br.equals("chrome")){		
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();		
-		}
+	//	}
 	}
 	
 	@AfterSuite	
