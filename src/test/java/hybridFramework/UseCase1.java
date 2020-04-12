@@ -18,7 +18,7 @@ public class UseCase1 extends OpenAndClosebrowser {
 		Thread.sleep(2000);
 		CommonFunctions.click_css(ObjectRepository.LOGIN_BUTTON_BYCSS);
 		Thread.sleep(5000);
-		CommonFunctions.navigateUrl(ObjectRepository.OBJECT_RECORD_URL);
+		CommonFunctions.navigateUrl(ObjectRepository.OBJECT_RECORD_URL_LIGHTNING);
 		Thread.sleep(20000);
 		//	CommonFunctions.click_name(ObjectRepository.BUTTON_SAVE_NAME);
 		//	Thread.sleep(2000);
