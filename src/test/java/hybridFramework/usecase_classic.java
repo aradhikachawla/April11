@@ -35,6 +35,7 @@ public class usecase_classic extends OpenAndClosebrowser {
 		driver.findElement(By.xpath("//a[contains(@class,'calToday')]")).click();
 		
 		//driver.findElement(By.xpath("//td[contains(@text(),'27')]")).click();
+		Thread.sleep(10000);
 
 		driver.findElement(By.xpath("//tr[6]//td[5]")).click();
 		Thread.sleep(10000);
@@ -45,11 +46,10 @@ public class usecase_classic extends OpenAndClosebrowser {
 	//	driver.findElement(By.xpath("//a[@class='datePicker-openIcon display']")).click();
         Thread.sleep(10000);
 		System.out.println("almost done");
-	//	driver.findElement(By.xpath("//button[@class='today slds-button slds-align_absolute-center slds-text-link']")).click();
-        Thread.sleep(15000);    
+	//  
 		System.out.println("almost 2 done");
 	//	driver.findElement(By.xpath("//a[@class='datePicker-openIcon display']")).click();
-        Thread.sleep(15000);    
+
 		System.out.println("almost 6 done");
 		//driver.findElement(By.xpath("//div[@class='form-element']//input[contains(@class,'input')]")).click();
  //       driver.findElement(By.xpath("//span[@class='slds-day weekday DESKTOP uiDayInMonthCell--default'][contains(text(),'30')]")).click();

@@ -15,7 +15,7 @@ public class OpenAndClosebrowser {
 
 	protected static WebDriver driver;
 	
-   @BeforeClass
+   @BeforeSuite	
 	public void openbrowser() throws Exception {
 
 		

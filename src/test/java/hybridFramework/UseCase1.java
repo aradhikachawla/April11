@@ -40,18 +40,20 @@ public class UseCase1 extends OpenAndClosebrowser {
 		//driver.findElement(By.xpath("//div[@class='form-element']//input[contains(@class,'input')]")).click();
         driver.findElement(By.xpath("//span[@class='slds-day weekday DESKTOP uiDayInMonthCell--default'][contains(text(),'30')]")).click();
         System.out.println("done");
-        Thread.sleep(20000); 
+        
         //    driver.findElement(By.xpath("input[@class='slds-input slds-combobox__input']")).click();
         // 	driver.findElement(By.xpath("//a[contains(text(),'Negotiation')]")).click();
-        Thread.sleep(20000);    
+  
         //((JavascriptExecutor) driver).executeScript("arguments[0].click();",  driver.findElement(By.xpath("//div[@class='slds-truncate']")) );
-        Thread.sleep(20000);    
+        Thread.sleep(10000);    
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", driver.findElement(By.xpath("//input[@class='slds-input slds-combobox__input']")));	   
-        Thread.sleep(20000);    
-		driver.findElement(By.xpath("//a[contains(text(),'Negotiation')]")).click();
+        Thread.sleep(10000);    
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", driver.findElement(By.xpath("//a[contains(text(),'Negotiation')]")));
 		//	CommonFunctions.click_xpath(ObjectRepository.RECORD_EDIT_XPATH);		
        // driver.findElement(By.xpath("//button[@class='slds-button slds-button--neutral uiButton--brand uiButton forceActionButton']//span[contains(@class,'label bBody')]")).click();
-        driver.findElement(By.xpath("//button[contains(text(),'Save')]")).click();
+        Thread.sleep(10000);    
+
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();",    driver.findElement(By.xpath("//button[3]//span[1]")));
         System.out.println("all done");
       //button[contains(text(),'Save')]
 	}

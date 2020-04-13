@@ -6,9 +6,8 @@ public class ObjectRepository {
 
 	//URLs
 	public static final String SALESFORCE_URL = "https://login.salesforce.com/" ; 
-	public static final String OBJECT_RECORD_URL_LIGHTNING = "https://aradhikachawla-dev-ed.lightning.force.com/lightning/r/Opportunity/0064T000003y1YYQAY/view" ;
-	public static final String OBJECT_RECORD_URL_CLASSIC = "https://aradhikachawla-dev-ed.my.salesforce.com/0064T000003y1YY";
-	
+	public static final String OBJECT_RECORD_URL_LIGHTNING = "https://aradhikachawla-dev-ed.lightning.force.com/lightning/r/Opportunity/0064T000004pfYdQAI/view" ;
+	public static final String OBJECT_RECORD_URL_CLASSIC = "https://aradhikachawla-dev-ed.my.salesforce.com/0064T000003y1XQ" ;
 	
 	//Login Page
 	public static final String LOGIN_USERNAME_TEXTBOX_BYCSS = "#username";
