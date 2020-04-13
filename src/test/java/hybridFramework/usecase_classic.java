@@ -47,14 +47,10 @@ public class usecase_classic extends OpenAndClosebrowser {
         Thread.sleep(10000);
 		System.out.println("almost done");
 	//  
-		System.out.println("almost 2 done");
 	//	driver.findElement(By.xpath("//a[@class='datePicker-openIcon display']")).click();
 
-		System.out.println("almost 6 done");
 		//driver.findElement(By.xpath("//div[@class='form-element']//input[contains(@class,'input')]")).click();
  //       driver.findElement(By.xpath("//span[@class='slds-day weekday DESKTOP uiDayInMonthCell--default'][contains(text(),'30')]")).click();
-        System.out.println("done");
-        Thread.sleep(5000); 
         //    driver.findElement(By.xpath("input[@class='slds-input slds-combobox__input']")).click();
         // 	driver.findElement(By.xpath("//a[contains(text(),'Negotiation')]")).click();
         //((JavascriptExecutor) driver).executeScript("arguments[0].click();",  driver.findElement(By.xpath("//div[@class='slds-truncate']")) );
