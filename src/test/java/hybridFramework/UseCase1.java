@@ -8,7 +8,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 public class UseCase1 extends OpenAndClosebrowser {
 
-	@Test
+	@Test(priority=2)
 	public void scnario_use_case() throws InterruptedException {
 		
 		CommonFunctions.navigateUrl(ObjectRepository.SALESFORCE_URL);
