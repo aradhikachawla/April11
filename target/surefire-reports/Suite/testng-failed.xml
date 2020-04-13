@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
     <classes>
-      <class name="hybridFramework.OpenAndClosebrowser">
-        <methods>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- hybridFramework.OpenAndClosebrowser -->
       <class name="hybridFramework.usecase_classic">
         <methods>
+          <include name="closeBrowser"/>
           <include name="openbrowser"/>
           <include name="scnario_use_case"/>
         </methods>
@@ -21,5 +17,5 @@
         </methods>
       </class> <!-- hybridFramework.UseCase1 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
